@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .logo img {
@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -37,6 +37,7 @@ h1 {
 p {
     font-size: 1.2rem;
     margin-bottom: 5px;
+    margin-right: 800px;
     line-height: 1.8;
 }
 
@@ -87,25 +88,8 @@ p {
     transform: scale(1.2); /* Slight zoom effect on hover */
     box-shadow: 0 6px 12px rgba(201, 198, 61, 0.3);
   }
-
-.social-icons {
-    margin-top: 30px;
-    margin-right: 20px;
-}
-
-.social-icons a {
-    margin: 0 10px;
-    color: #fff;
-    font-size: 1.5rem;
-    text-decoration: none;
-}
-
-.social-icons a:hover {
-    color: #ffe400;
-}
-
 .illustration {
-    margin-top: 20px;
+    margin-top: -454px;
     display: flex;
     justify-content: flex-end;
 }
