@@ -57,9 +57,40 @@ p {
 .contact-btn:hover {
     background-color: #ffcc00;
 }
+.social-links h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #ffffff;
+  }
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    gap: 1.5em; /* Spacing between buttons */
+    flex-wrap: wrap;
+  }
+  
+  .social-links li {
+    display: inline-block;
+  }
+  
+  .social-links a img {
+    width: 60px; /* Larger size for buttons */
+    height: 60px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .social-links a img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(201, 198, 61, 0.3);
+  }
 
 .social-icons {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
 }
 
 .social-icons a {
